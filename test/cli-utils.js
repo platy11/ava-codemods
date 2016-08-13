@@ -64,6 +64,11 @@ test('selectScripts', t => {
 		scripts: [
 			'lib/script-0.15.0.js'
 		]
+	},{
+		version: '0.17.0',
+		scripts: [
+			'lib/error-to-iferror.js'
+		]
 	}, {
 		version: '1.0.0',
 		scripts: [
